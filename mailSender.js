@@ -16,8 +16,8 @@ const mailSender = async () => {
         port: 587,
         secure: false,
         auth: {
-          user: "jaiprakash18@navgurukul.org",
-          pass: "jaiprakash",
+          user: "",
+          pass: "",
         },
       });
       let body = `<p>Hello, Hiring Manager</p>
